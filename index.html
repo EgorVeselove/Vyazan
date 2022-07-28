@@ -13,9 +13,42 @@
 		font-weight: normal;
 		font-style: normal;
 		src: local('Circe'), local('Circe-Regular'),
-			url('/fonts/Circe-Regular.woff2') format('woff2'),
-			url('/fonts/Circe-Regular.woff') format('woff');
+			url(./fonts/Circe-Regular.woff2) format('woff2'),
+			url(./fonts/Circe-Regular.woff) format('woff');
 		}
+		
+		@font-face {
+    	font-family: 'Circe';
+   		src: url('Circe-Regular.eot');
+    	src: local('Circe'), local('Circe-Regular'),
+        url(./fonts/Circe-Regular.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/Circe-Regular.woff2) format('woff2'),
+        url(./fonts/Circe-Regular.woff) format('woff'),
+        url(./fonts/Circe-Regular.ttf) format('truetype');
+    	font-weight: normal;
+    	font-style: normal;
+		}
+
+		@font-face {
+    	font-family: 'Circe';
+    	src: url('Circe-Bold.eot');
+    	src: local('Circe Bold'), local('Circe-Bold'),
+        url(./fonts/Circe-Bold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/Circe-Bold.woff2) format('woff2'),
+        url(./fonts/Circe-Bold.woff) format('woff'),
+        url(./fonts/Circe-Bold.ttf) format('truetype');
+    	font-weight: bold;
+    	font-style: normal;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		.page {
 			max-width: 1000px;
 			margin: 0 auto;
